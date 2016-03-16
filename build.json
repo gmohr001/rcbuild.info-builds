@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "eco 270",
+    "esc": "DYS/Mini-30A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32-rev6",
+    "prop": [
+      "HQProp/5x4.5-FG-BN"
+    ],
+    "arm": "THug-FRAMES/ZMR250-THuG-ARMS-5mm",
+    "battery": [
+      "Dinogy/4S-1800mAh-30C"
+    ],
+    "osd": "MultiRotorMania/MicroOSD",
+    "receiver": "FrSky/D4R-II",
+    "flightcam": "SurveilZone/Sony-960H-CCD-Effio-V-800TVL-Ultra-WDR",
+    "hqcam": "GoPro/HERO4-Session",
+    "videotx": "ImmersionRC/5.8GHz-600mw",
+    "blackbox": "MultiRotorMania/Flight-Data-Logger",
+    "voltagereg": "Rotorgeeks/Mini-Stepdown-Regulator"
+  },
+  "version": 1
 }
